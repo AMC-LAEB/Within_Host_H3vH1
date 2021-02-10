@@ -1,0 +1,565 @@
+IQ-TREE multicore version 2.0.6 for Mac OS X 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Alvins-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -nt AUTO -ntmax 6 -m GTR+I+G4 -s ./reference/concatenated_wgs.fasta
+Seed:    3160 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 12 13:01:01 2020
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file ./reference/concatenated_wgs.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 354 sequences with 13133 columns, 1305 distinct patterns
+941 parsimony-informative, 1022 singleton sites, 11170 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  H3N2_Bris07                       0.00%    passed     99.69%
+   2  H3N2_1219_T1_N_S517_N708_R|C      0.00%    passed     98.97%
+   3  H3N2_1219_T1_N_S517_N708_R|M1     0.00%    passed     99.04%
+   4  H3N2_1205_T2_T_S517_N703_R|C      0.02%    passed     99.89%
+   5  H3N2_1205_T2_T_S517_N703_R|M1     0.02%    passed     99.86%
+   6  H3N2_1668_T2_T_S505_N711_R|C      0.00%    passed     99.69%
+   7  H3N2_1668_T2_T_S505_N711_R|M1     0.00%    passed     99.68%
+   8  H3N2_1413_T7_T_S504_N710_RP|C     0.00%    passed     99.93%
+   9  H3N2_1413_T7_T_S504_N710_RP|M1    0.00%    passed     99.86%
+  10  H3N2_1221_T1_N_S517_N712_R|C      0.00%    passed     99.91%
+  11  H3N2_1221_T1_N_S517_N712_R|M1     0.00%    passed     99.84%
+  12  H3N2_1707_T5_N_S517_N712_R|C      0.00%    passed     99.91%
+  13  H3N2_1707_T5_N_S517_N712_R|M1     0.00%    passed     99.95%
+  14  H3N2_1878_T0_N_S517_N707_R|C      0.00%    passed     98.92%
+  15  H3N2_1878_T0_N_S517_N707_R|M1     0.00%    passed     98.31%
+  16  H3N2_1867_T0_N_S507_N705_R|C      0.00%    passed     99.99%
+  17  H3N2_1867_T0_N_S507_N705_R|M1     0.00%    passed    100.00%
+  18  H3N2_1847_T0_N_S505_N706_R|C      0.00%    passed     99.99%
+  19  H3N2_1847_T0_N_S505_N706_R|M1     0.00%    passed     99.92%
+  20  H3N2_1671_T0_T_S506_N707_R|C      0.00%    passed     99.89%
+  21  H3N2_1671_T0_T_S506_N707_R|M1     0.00%    passed     99.94%
+  22  H3N2_1691_T2_T_S517_N702_R|C      1.88%    passed     96.02%
+  23  H3N2_1691_T2_T_S517_N702_R|M1     1.88%    passed     93.22%
+  24  H3N2_3611_T4_N_S503_N709_R|C      0.00%    passed     99.86%
+  25  H3N2_3611_T4_N_S503_N709_R|M1     0.00%    passed     99.53%
+  26  H3N2_1843_T10_T_S505_N705_R|C     0.00%    passed    100.00%
+  27  H3N2_1843_T10_T_S505_N705_R|M1    0.00%    passed     99.98%
+  28  H3N2_1701_T2_T_S517_N706_R|C      0.00%    passed     99.47%
+  29  H3N2_1701_T2_T_S517_N706_R|M1     0.00%    passed     99.53%
+  30  H3N2_1413_T1_T_S504_N705_R|C      0.00%    passed     99.93%
+  31  H3N2_1413_T1_T_S504_N705_R|M1     0.00%    passed     99.83%
+  32  H3N2_1231_T0_N_S503_N707_R|C      0.00%    passed     98.52%
+  33  H3N2_1231_T0_N_S503_N707_R|M1     0.00%    passed     98.82%
+  34  H3N2_1686_T3_T_S508_N702_RP|C     0.00%    passed     99.36%
+  35  H3N2_1686_T3_T_S508_N702_RP|M1    0.00%    passed     97.39%
+  36  H3N2_1848_T2_N_S505_N711_R|C      0.00%    passed     99.98%
+  37  H3N2_1848_T2_N_S505_N711_R|M1     0.00%    passed     99.80%
+  38  H3N2_1414_T0_N_S504_N711_R|C      0.00%    passed     99.96%
+  39  H3N2_1414_T0_N_S504_N711_R|M1     0.00%    passed     99.99%
+  40  H3N2_1874_T1_N_S508_N706_R|C      0.00%    passed     99.93%
+  41  H3N2_1874_T1_N_S508_N706_R|M1     0.00%    passed     99.92%
+  42  H3N2_1413_T4_N_S504_N708_R|C      0.00%    passed     99.93%
+  43  H3N2_1413_T4_N_S504_N708_R|M1     0.00%    passed     99.88%
+  44  H3N2_1842_T1_N_S504_N706_R|C      0.00%    passed    100.00%
+  45  H3N2_1842_T1_N_S504_N706_R|M1     0.00%    passed     99.99%
+  46  H3N2_1672_T2_T_S506_N711_R|C      0.00%    passed     99.97%
+  47  H3N2_1672_T2_T_S506_N711_R|M1     0.00%    passed     99.61%
+  48  H3N2_1221_T0_N_S517_N711_R|C      0.00%    passed     99.91%
+  49  H3N2_1221_T0_N_S517_N711_R|M1     0.00%    passed     99.94%
+  50  H3N2_1813_T0_T_S502_N702_R|C      0.00%    passed     99.89%
+  51  H3N2_1813_T0_T_S502_N702_R|M1     0.00%    passed     99.93%
+  52  H3N2_1869_T0_N_S508_N701_R|C      0.00%    passed     99.98%
+  53  H3N2_1869_T0_N_S508_N701_R|M1     0.00%    passed     99.99%
+  54  H3N2_3612_T1_N_S503_N711_R|C      0.00%    passed     99.87%
+  55  H3N2_3612_T1_N_S503_N711_R|M1     0.00%    passed     99.89%
+  56  H3N2_1673_T1_N_S507_N702_R|C      0.00%    passed     99.55%
+  57  H3N2_1673_T1_N_S507_N702_R|M1     0.00%    passed     99.57%
+  58  H3N2_1814_T1_T_S502_N707_R|C      0.00%    passed     99.96%
+  59  H3N2_1814_T1_T_S502_N707_R|M1     0.00%    passed     99.99%
+  60  H3N2_1413_T3_T_S504_N707_R|C      0.00%    passed     99.93%
+  61  H3N2_1413_T3_T_S504_N707_R|M1     0.00%    passed     99.93%
+  62  H3N2_1682_T3_T_S507_N707_R|C      0.00%    passed     99.99%
+  63  H3N2_1682_T3_T_S507_N707_R|M1     0.00%    passed    100.00%
+  64  H3N2_1672_T3_T_S506_N712_RP|C     0.00%    passed     99.97%
+  65  H3N2_1672_T3_T_S506_N712_RP|M1    0.00%    passed     99.69%
+  66  H3N2_1813_T1_T_S502_N703_R|C      0.00%    passed     99.89%
+  67  H3N2_1813_T1_T_S502_N703_R|M1     0.00%    passed     99.98%
+  68  H3N2_1843_T4_N_S505_N702_R|C      0.00%    passed    100.00%
+  69  H3N2_1843_T4_N_S505_N702_R|M1     0.00%    passed     99.99%
+  70  H3N2_1864_T0_T_S506_N708_R|C      0.00%    passed     99.90%
+  71  H3N2_1864_T0_T_S506_N708_R|M1     0.00%    passed     99.98%
+  72  H3N2_3615_T1_N_S504_N708_R|C      0.00%    passed     99.94%
+  73  H3N2_3615_T1_N_S504_N708_R|M1     0.00%    passed     99.76%
+  74  H3N2_1688_T3_N_S508_N709_R|C      0.00%    passed     99.95%
+  75  H3N2_1688_T3_N_S508_N709_R|M1     0.00%    passed     99.99%
+  76  H3N2_1687_T1_N_S508_N704_R|C      0.00%    passed     99.97%
+  77  H3N2_1687_T1_N_S508_N704_R|M1     0.00%    passed     99.99%
+  78  H3N2_1815_T0_N_S502_N712_R|C      0.00%    passed     99.84%
+  79  H3N2_1815_T0_N_S502_N712_R|M1     0.00%    passed     99.87%
+  80  H3N2_1842_T4_N_S504_N709_R|C      0.00%    passed    100.00%
+  81  H3N2_1842_T4_N_S504_N709_R|M1     0.00%    passed     99.96%
+  82  H3N2_1875_T5_N_S517_N701_R|C      0.96%    passed     99.85%
+  83  H3N2_1875_T5_N_S517_N701_R|M1     0.96%    passed     99.99%
+  84  H3N2_1860_T0_N_S506_N704_R|C      0.00%    passed     99.98%
+  85  H3N2_1860_T0_N_S506_N704_R|M1     0.00%    passed     99.99%
+  86  H3N2_1864_T1_N_S506_N709_R|C      0.00%    passed     99.90%
+  87  H3N2_1864_T1_N_S506_N709_R|M1     0.00%    passed     99.92%
+  88  H3N2_1707_T3_T_S517_N710_R|C      0.00%    passed     99.87%
+  89  H3N2_1707_T3_T_S517_N710_R|M2     0.00%    passed     99.96%
+  90  H3N2_1707_T3_T_S517_N710_R|M1     0.00%    passed     99.71%
+  91  H3N2_1866_T3_N_S507_N702_R|C      0.00%    passed    100.00%
+  92  H3N2_1866_T3_N_S507_N702_R|M1     0.00%    passed    100.00%
+  93  H3N2_3609_T5_N_S503_N702_R|C      0.00%    passed     99.86%
+  94  H3N2_3609_T5_N_S503_N702_R|M1     0.00%    passed     99.94%
+  95  H3N2_1864_T2_T_S506_N710_R|C      0.00%    passed     99.93%
+  96  H3N2_1864_T2_T_S506_N710_R|M1     0.00%    passed     99.97%
+  97  H3N2_1867_T1_N_S507_N706_R|C      0.00%    passed     99.99%
+  98  H3N2_1867_T1_N_S507_N706_R|M1     0.00%    passed     99.98%
+  99  H3N2_1867_T2_N_S507_N707_R|C      0.00%    passed     99.99%
+ 100  H3N2_1867_T2_N_S507_N707_R|M1     0.00%    passed     99.99%
+ 101  H3N2_1224_T0_N_S502_N702_R|C      0.00%    passed     99.31%
+ 102  H3N2_1224_T0_N_S502_N702_R|M1     0.00%    passed     99.25%
+ 103  H3N2_1226_T3_N_S503_N703_RP|C     0.00%    passed     98.75%
+ 104  H3N2_1226_T3_N_S503_N703_RP|M1    0.00%    passed     99.26%
+ 105  H3N2_1813_T3_N_S502_N704_R|C      0.00%    passed     99.89%
+ 106  H3N2_1813_T3_N_S502_N704_R|M1     0.00%    passed     99.95%
+ 107  H3N2_1688_T0_N_S508_N706_R|C      0.00%    passed     99.95%
+ 108  H3N2_1688_T0_N_S508_N706_R|M1     0.00%    passed    100.00%
+ 109  H3N2_3612_T3_T_S504_N701_R|C      0.00%    passed     99.91%
+ 110  H3N2_3612_T3_T_S504_N701_R|M1     0.00%    passed     99.90%
+ 111  H3N2_1701_T1_T_S517_N705_R|C      0.00%    passed     99.47%
+ 112  H3N2_1701_T1_T_S517_N705_R|M1     0.00%    passed     99.59%
+ 113  H3N2_1825_T2_T_S503_N706_R|C      0.00%    passed     99.82%
+ 114  H3N2_1825_T2_T_S503_N706_R|M1     0.00%    passed     99.87%
+ 115  H3N2_1673_T2_T_S507_N703_R|C      0.00%    passed     99.95%
+ 116  H3N2_1673_T2_T_S507_N703_R|M1     0.00%    passed     99.32%
+ 117  H3N2_1874_T0_N_S508_N705_R|C      0.00%    passed     99.93%
+ 118  H3N2_1874_T0_N_S508_N705_R|M1     0.00%    passed     99.97%
+ 119  H3N2_1876_T2_N_S517_N704_R|C      0.13%    passed    100.00%
+ 120  H3N2_1876_T2_N_S517_N704_R|M1     0.13%    passed    100.00%
+ 121  H3N2_1876_T0_N_S517_N702_R|C      0.00%    passed     99.99%
+ 122  H3N2_1876_T0_N_S517_N702_R|M1     0.00%    passed     99.96%
+ 123  H3N2_1814_T4_T_S502_N710_R|C      0.00%    passed     99.96%
+ 124  H3N2_1814_T4_T_S502_N710_R|M1     0.00%    passed     99.99%
+ 125  H3N2_1840_T0_T_S503_N711_R|C      0.00%    passed     99.93%
+ 126  H3N2_1840_T0_T_S503_N711_R|M1     0.00%    passed     99.75%
+ 127  H3N2_1876_T3_N_S517_N705_R|C      0.00%    passed     99.99%
+ 128  H3N2_1876_T3_N_S517_N705_R|M1     0.00%    passed     99.96%
+ 129  H3N2_1205_T4_T_S517_N705_R|C      0.00%    passed     99.91%
+ 130  H3N2_1205_T4_T_S517_N705_R|M1     0.00%    passed     99.91%
+ 131  H3N2_1205_T5_T_S517_N706_R|C      0.00%    passed     99.91%
+ 132  H3N2_1205_T5_T_S517_N706_R|M1     0.00%    passed     99.89%
+ 133  H3N2_1847_T1_T_S505_N707_R|C      0.00%    passed     99.99%
+ 134  H3N2_1847_T1_T_S505_N707_R|M1     0.00%    passed     99.84%
+ 135  H3N2_1226_T1_N_S503_N702_R|C      0.00%    passed     98.75%
+ 136  H3N2_1226_T1_N_S503_N702_R|M1     0.00%    passed     99.09%
+ 137  H3N2_1671_T2_T_S506_N709_R|C      0.00%    passed     99.92%
+ 138  H3N2_1671_T2_T_S506_N709_R|M1     0.00%    passed     99.95%
+ 139  H3N2_3613_T0_T_S504_N703_R|C      0.00%    passed     99.96%
+ 140  H3N2_3613_T0_T_S504_N703_R|M1     0.00%    passed     99.93%
+ 141  H3N2_1412_T2_N_S504_N702_R|C      0.00%    passed     99.95%
+ 142  H3N2_1412_T2_N_S504_N702_R|M1     0.00%    passed    100.00%
+ 143  H3N2_1840_T3_N_S504_N702_R|C      0.00%    passed     99.93%
+ 144  H3N2_1840_T3_N_S504_N702_R|M1     0.00%    passed     99.88%
+ 145  H3N2_1842_T5_N_S504_N710_R|C      0.00%    passed    100.00%
+ 146  H3N2_1842_T5_N_S504_N710_R|M1     0.00%    passed     99.98%
+ 147  H3N2_3613_T3_T_S504_N706_R|C      0.00%    passed     99.96%
+ 148  H3N2_3613_T3_T_S504_N706_R|M1     0.00%    passed     99.96%
+ 149  H3N2_1668_T0_N_S505_N709_R|C      0.00%    passed     99.69%
+ 150  H3N2_1668_T0_N_S505_N709_R|M1     0.00%    passed     99.55%
+ 151  H3N2_1412_T1_N_S504_N701_R|C      0.00%    passed     99.95%
+ 152  H3N2_1412_T1_N_S504_N701_R|M1     0.00%    passed     99.91%
+ 153  H3N2_1866_T0_N_S506_N711_R|C      0.00%    passed    100.00%
+ 154  H3N2_1866_T0_N_S506_N711_R|M1     0.00%    passed     99.99%
+ 155  H3N2_1860_T5_N_S506_N707_R|C      0.00%    passed     99.99%
+ 156  H3N2_1860_T5_N_S506_N707_R|M1     0.00%    passed     99.96%
+ 157  H3N2_1828_T0_N_S503_N708_R|C      0.00%    passed     99.93%
+ 158  H3N2_1828_T0_N_S503_N708_R|M1     0.00%    passed     99.99%
+ 159  H3N2_1414_T1_N_S504_N712_R|C      0.00%    passed     99.96%
+ 160  H3N2_1414_T1_N_S504_N712_R|M1     0.00%    passed     99.99%
+ 161  H3N2_1414_T6_T_S505_N701_RP|C     0.00%    passed     99.99%
+ 162  H3N2_1414_T6_T_S505_N701_RP|M1    0.00%    passed     99.93%
+ 163  H3N2_1416_T0_N_S505_N702_R|C      0.00%    passed     99.99%
+ 164  H3N2_1416_T0_N_S505_N702_R|M1     0.00%    passed     99.99%
+ 165  H3N2_1219_T2_N_S517_N709_R|C      0.00%    passed     98.58%
+ 166  H3N2_1219_T2_N_S517_N709_R|M1     0.00%    passed     98.85%
+ 167  H3N2_3610_T0_N_S503_N703_R|C      0.00%    passed     99.65%
+ 168  H3N2_3610_T0_N_S503_N703_R|M1     0.00%    passed     99.78%
+ 169  H3N2_1814_T2_T_S502_N708_R|C      0.00%    passed     99.96%
+ 170  H3N2_1814_T2_T_S502_N708_R|M1     0.00%    passed     99.99%
+ 171  H3N2_3612_T0_T_S503_N710_R|C      0.00%    passed     99.87%
+ 172  H3N2_3612_T0_T_S503_N710_R|M1     0.00%    passed     99.77%
+ 173  H3N2_3609_T0_N_S502_N709_R|C      0.00%    passed     99.86%
+ 174  H3N2_3609_T0_N_S502_N709_R|M1     0.00%    passed     99.81%
+ 175  H3N2_1814_T0_N_S502_N706_R|C      0.00%    passed     99.96%
+ 176  H3N2_1814_T0_N_S502_N706_R|M1     0.00%    passed     99.97%
+ 177  H3N2_1875_T2_N_S508_N711_R|C      0.00%    passed     99.97%
+ 178  H3N2_1875_T2_N_S508_N711_R|M1     0.00%    passed     99.94%
+ 179  H3N2_1866_T1_N_S506_N712_R|C      0.02%    passed    100.00%
+ 180  H3N2_1866_T1_N_S506_N712_R|M1     0.02%    passed     99.97%
+ 181  H3N2_3611_T3_N_S503_N708_R|C      0.00%    passed     99.77%
+ 182  H3N2_3611_T3_N_S503_N708_R|M1     0.00%    passed     99.94%
+ 183  H3N2_1843_T2_N_S504_N712_R|C      0.00%    passed    100.00%
+ 184  H3N2_1843_T2_N_S504_N712_R|M1     0.00%    passed     99.99%
+ 185  H3N2_3615_T0_T_S504_N707_R|C      0.00%    passed     99.95%
+ 186  H3N2_3615_T0_T_S504_N707_R|M1     0.00%    passed     99.78%
+ 187  H3N2_1843_T0_N_S504_N711_R|C      0.00%    passed    100.00%
+ 188  H3N2_1843_T0_N_S504_N711_R|M1     0.00%    passed     99.99%
+ 189  H3N2_1848_T1_N_S505_N710_R|C      0.00%    passed     99.98%
+ 190  H3N2_1848_T1_N_S505_N710_R|M1     0.00%    passed     99.97%
+ 191  H3N2_1226_T0_N_S503_N701_R|C      0.00%    passed     98.75%
+ 192  H3N2_1226_T0_N_S503_N701_R|M1     0.00%    passed     98.55%
+ 193  H3N2_1701_T3_T_S517_N707_R|C      0.00%    passed     99.47%
+ 194  H3N2_1701_T3_T_S517_N707_R|M1     0.00%    passed     98.92%
+ 195  H3N2_1876_T1_N_S517_N703_R|C      0.00%    passed     99.99%
+ 196  H3N2_1876_T1_N_S517_N703_R|M1     0.00%    passed     99.98%
+ 197  H3N2_1878_T1_N_S517_N708_R|C      0.00%    passed     98.92%
+ 198  H3N2_1878_T1_N_S517_N708_R|M1     0.00%    passed     98.75%
+ 199  H3N2_1221_T4_N_S502_N701_R|C      0.00%    passed     99.92%
+ 200  H3N2_1221_T4_N_S502_N701_R|M1     0.00%    passed     99.97%
+ 201  H3N2_1850_T4_T_S506_N703_R|C      0.00%    passed     98.24%
+ 202  H3N2_1850_T4_T_S506_N703_R|M1     0.00%    passed     98.56%
+ 203  H3N2_1850_T2_N_S506_N702_R|C      0.00%    passed     98.50%
+ 204  H3N2_1850_T2_N_S506_N702_R|M1     0.00%    passed     98.84%
+ 205  H3N2_1682_T2_T_S507_N706_R|C      0.00%    passed     99.99%
+ 206  H3N2_1682_T2_T_S507_N706_R|M1     0.00%    passed     99.99%
+ 207  H3N2_1682_T4_N_S507_N708_R|C      0.00%    passed     99.99%
+ 208  H3N2_1682_T4_N_S507_N708_R|M1     0.00%    passed    100.00%
+ 209  H3N2_3615_T7_N_S504_N710_R|C      0.00%    passed     99.95%
+ 210  H3N2_3615_T7_N_S504_N710_R|M1     0.00%    passed     99.57%
+ 211  H3N2_1673_T0_T_S507_N701_R|C      0.00%    passed     99.29%
+ 212  H3N2_1673_T0_T_S507_N701_R|M1     0.00%    passed     99.10%
+ 213  H3N2_1707_T7_N_S502_N701_R|C      0.00%    passed     99.86%
+ 214  H3N2_1707_T7_N_S502_N701_R|M1     0.00%    passed     99.74%
+ 215  H3N2_1876_T4_N_S517_N706_R|C      0.02%    passed     99.99%
+ 216  H3N2_1876_T4_N_S517_N706_R|M1     0.02%    passed     99.97%
+ 217  H3N2_1682_T0_N_S507_N704_R|C      0.00%    passed     99.99%
+ 218  H3N2_1682_T0_N_S507_N704_R|M1     0.00%    passed    100.00%
+ 219  H3N2_1219_T0_N_S517_N707_R|C      0.00%    passed     98.58%
+ 220  H3N2_1219_T0_N_S517_N707_R|M1     0.00%    passed     99.15%
+ 221  H3N2_1814_T3_T_S502_N709_R|C      0.00%    passed     99.96%
+ 222  H3N2_1814_T3_T_S502_N709_R|M1     0.00%    passed     99.97%
+ 223  H3N2_1231_T1_N_S503_N708_R|C      0.00%    passed     98.52%
+ 224  H3N2_1231_T1_N_S503_N708_R|M1     0.00%    passed     99.46%
+ 225  H3N2_1691_T4_N_S508_N712_RP|C     0.00%    passed     99.77%
+ 226  H3N2_1691_T4_N_S508_N712_RP|M1    0.00%    passed     99.51%
+ 227  H3N2_1225_T0_N_S502_N706_R|C      0.00%    passed     99.94%
+ 228  H3N2_1225_T0_N_S502_N706_R|M1     0.00%    passed     99.93%
+ 229  H3N2_1227_T2_T_S503_N706_RP|C     0.00%    passed     99.96%
+ 230  H3N2_1227_T2_T_S503_N706_RP|M1    0.00%    passed     99.98%
+ 231  H3N2_1225_T7_N_S502_N711_RP|C     0.18%    passed     99.94%
+ 232  H3N2_1225_T7_N_S502_N711_RP|M1    0.18%    passed     99.56%
+ 233  H3N2_1231_T2_T_S503_N709_R|C      0.00%    passed     98.52%
+ 234  H3N2_1231_T2_T_S503_N709_R|M1     0.00%    passed     96.88%
+ 235  H3N2_1412_T0_N_S503_N712_R|C      0.00%    passed     99.95%
+ 236  H3N2_1412_T0_N_S503_N712_R|M1     0.00%    passed     99.96%
+ 237  H3N2_1671_T1_T_S506_N708_R|C      0.00%    passed     99.88%
+ 238  H3N2_1671_T1_T_S506_N708_R|M1     0.00%    passed     99.97%
+ 239  H3N2_1860_T1_N_S506_N705_R|C      0.00%    passed     99.98%
+ 240  H3N2_1860_T1_N_S506_N705_R|M1     0.00%    passed     99.98%
+ 241  H3N2_3611_T0_N_S503_N706_R|C      0.00%    passed     99.82%
+ 242  H3N2_3611_T0_N_S503_N706_R|M1     0.00%    passed     99.96%
+ 243  H3N2_3613_T1_T_S504_N704_R|C      0.00%    passed     99.96%
+ 244  H3N2_3613_T1_T_S504_N704_R|M1     0.00%    passed     99.98%
+ 245  H3N2_1224_T3_T_S502_N705_RP|C     0.00%    passed     99.31%
+ 246  H3N2_1224_T3_T_S502_N705_RP|M1    0.00%    passed     97.93%
+ 247  H3N2_1860_T3_N_S506_N706_R|C      0.00%    passed     99.98%
+ 248  H3N2_1860_T3_N_S506_N706_R|M1     0.00%    passed     99.89%
+ 249  H3N2_1205_T0_T_S517_N701_R|C      0.00%    passed     99.91%
+ 250  H3N2_1205_T0_T_S517_N701_R|M1     0.00%    passed     99.96%
+ 251  H3N2_1682_T5_T_S507_N709_R|C      0.00%    passed     99.99%
+ 252  H3N2_1682_T5_T_S507_N709_R|M1     0.00%    passed     99.99%
+ 253  H3N2_1682_T7_N_S507_N710_R|C      0.98%    passed     99.97%
+ 254  H3N2_1682_T7_N_S507_N710_R|M1     0.98%    passed     99.91%
+ 255  H3N2_1825_T1_T_S503_N705_R|C      0.00%    passed     99.82%
+ 256  H3N2_1825_T1_T_S503_N705_R|M1     0.00%    passed     99.92%
+ 257  H3N2_1418_T6_T_S505_N708_R|C      0.00%    passed     99.98%
+ 258  H3N2_1418_T6_T_S505_N708_R|M1     0.00%    passed     99.99%
+ 259  H3N2_3611_T1_N_S503_N707_R|C      0.00%    passed     99.77%
+ 260  H3N2_3611_T1_N_S503_N707_R|M1     0.00%    passed     99.27%
+ 261  H3N2_1843_T5_N_S505_N703_R|C      0.00%    passed    100.00%
+ 262  H3N2_1843_T5_N_S505_N703_R|M1     0.00%    passed     99.85%
+ 263  H3N2_1813_T4_T_S502_N705_R|C      2.05%    passed     98.15%
+ 264  H3N2_1813_T4_T_S502_N705_R|M1     2.05%    passed     98.12%
+ 265  H3N2_1225_T1_N_S502_N707_R|C      0.00%    passed     99.94%
+ 266  H3N2_1225_T1_N_S502_N707_R|M1     0.00%    passed     99.85%
+ 267  H3N2_1701_T0_T_S517_N704_R|C      0.00%    passed     99.47%
+ 268  H3N2_1701_T0_T_S517_N704_R|M1     0.00%    passed     99.53%
+ 269  H3N2_1848_T0_N_S505_N709_R|C      0.00%    passed     99.98%
+ 270  H3N2_1848_T0_N_S505_N709_R|M1     0.00%    passed     99.75%
+ 271  H3N2_1686_T1_T_S508_N701_RP|C     0.00%    passed     99.36%
+ 272  H3N2_1686_T1_T_S508_N701_RP|M1    0.00%    passed     98.65%
+ 273  H3N2_1205_T3_T_S517_N704_R|C      0.00%    passed     99.91%
+ 274  H3N2_1205_T3_T_S517_N704_R|M1     0.00%    passed     99.93%
+ 275  H3N2_1227_T0_N_S503_N704_R|C      0.00%    passed     99.96%
+ 276  H3N2_1227_T0_N_S503_N704_R|M1     0.00%    passed     99.97%
+ 277  H3N2_1205_T1_N_S517_N702_R|C      0.00%    passed     99.91%
+ 278  H3N2_1205_T1_N_S517_N702_R|M1     0.00%    passed     99.92%
+ 279  H3N2_1868_T2_N_S507_N711_R|C      0.00%    passed     98.89%
+ 280  H3N2_1868_T2_N_S507_N711_R|M1     0.00%    passed     98.78%
+ 281  H3N2_1814_T5_T_S502_N711_R|C      0.00%    passed     99.96%
+ 282  H3N2_1814_T5_T_S502_N711_R|M1     0.00%    passed     99.86%
+ 283  H3N2_1875_T0_N_S508_N709_R|C      0.05%    passed     99.94%
+ 284  H3N2_1875_T0_N_S508_N709_R|M1     0.05%    passed     99.92%
+ 285  H3N2_3608_T0_N_S502_N706_R|C      0.00%    passed     99.84%
+ 286  H3N2_3608_T0_N_S502_N706_R|M1     0.00%    passed     99.97%
+ 287  H3N2_1866_T2_N_S507_N701_R|C      0.00%    passed    100.00%
+ 288  H3N2_1866_T2_N_S507_N701_R|M1     0.00%    passed     99.99%
+ 289  H3N2_3613_T2_T_S504_N705_R|C      0.00%    passed     99.96%
+ 290  H3N2_3613_T2_T_S504_N705_R|M1     0.00%    passed     99.96%
+ 291  H3N2_1825_T0_N_S503_N704_R|C      0.00%    passed     99.85%
+ 292  H3N2_1825_T0_N_S503_N704_R|M1     0.00%    passed     99.93%
+ 293  H3N2_1869_T1_N_S508_N702_R|C      0.00%    passed     99.99%
+ 294  H3N2_1869_T1_N_S508_N702_R|M1     0.00%    passed     99.99%
+ 295  H3N2_1840_T1_T_S503_N712_R|C      0.00%    passed     99.93%
+ 296  H3N2_1840_T1_T_S503_N712_R|M1     0.00%    passed     99.80%
+ 297  H3N2_1866_T7_T_S507_N703_R|C      0.02%    passed    100.00%
+ 298  H3N2_1866_T7_T_S507_N703_R|M1     0.02%    passed     99.85%
+ 299  H3N2_3608_T5_T_S502_N708_R|C      0.00%    passed     99.94%
+ 300  H3N2_3608_T5_T_S502_N708_R|M1     0.00%    passed     99.63%
+ 301  H3N2_1840_T2_N_S504_N701_R|C      0.00%    passed     99.88%
+ 302  H3N2_1840_T2_N_S504_N701_R|M1     0.00%    passed     99.85%
+ 303  H3N2_3608_T1_N_S502_N707_R|C      0.00%    passed     99.84%
+ 304  H3N2_3608_T1_N_S502_N707_R|M1     0.00%    passed     99.94%
+ 305  H3N2_1878_T3_N_S517_N709_R|C      0.00%    passed     99.72%
+ 306  H3N2_1878_T3_N_S517_N709_R|M1     0.00%    passed     99.75%
+ 307  H3N2_1224_T1_T_S502_N703_R|C      0.00%    passed     99.31%
+ 308  H3N2_1224_T1_T_S502_N703_R|M1     0.00%    passed     99.19%
+ 309  H3N2_1691_T1_T_S517_N701_R|C      0.00%    passed     99.77%
+ 310  H3N2_1691_T1_T_S517_N701_R|M1     0.00%    passed     99.70%
+ 311  H3N2_1413_T0_N_S504_N704_R|C      0.00%    passed     99.93%
+ 312  H3N2_1413_T0_N_S504_N704_R|M1     0.00%    passed     99.96%
+ 313  H3N2_1874_T2_N_S508_N707_R|C      0.00%    passed     99.93%
+ 314  H3N2_1874_T2_N_S508_N707_R|M1     0.00%    passed     99.99%
+ 315  H3N2_3609_T1_N_S502_N710_R|C      0.00%    passed     99.86%
+ 316  H3N2_3609_T1_N_S502_N710_R|M1     0.00%    passed     99.81%
+ 317  H3N2_1412_T3_T_S504_N703_R|C      0.00%    passed     99.95%
+ 318  H3N2_1412_T3_T_S504_N703_R|M1     0.00%    passed     99.98%
+ 319  H3N2_3609_T3_N_S502_N712_R|C      0.00%    passed     99.86%
+ 320  H3N2_3609_T3_N_S502_N712_R|M1     0.00%    passed     99.79%
+ 321  H3N2_1842_T2_T_S504_N707_R|C      0.00%    passed    100.00%
+ 322  H3N2_1842_T2_T_S504_N707_R|M1     0.00%    passed    100.00%
+ 323  H3N2_1815_T1_N_S503_N701_R|C      0.00%    passed     99.84%
+ 324  H3N2_1815_T1_N_S503_N701_R|M1     0.00%    passed     99.94%
+ 325  H3N2_1828_T1_N_S503_N709_R|C      0.00%    passed     99.93%
+ 326  H3N2_1828_T1_N_S503_N709_R|M1     0.00%    passed     99.90%
+ 327  H3N2_3612_T2_N_S503_N712_R|C      0.00%    passed     99.87%
+ 328  H3N2_3612_T2_N_S503_N712_R|M1     0.00%    passed     99.93%
+ 329  H3N2_1868_T0_N_S507_N709_R|C      0.00%    passed     98.89%
+ 330  H3N2_1868_T0_N_S507_N709_R|M1     0.00%    passed     99.17%
+ 331  H3N2_1815_T3_N_S503_N703_R|C      0.00%    passed     99.84%
+ 332  H3N2_1815_T3_N_S503_N703_R|M1     0.00%    passed     99.68%
+ 333  H3N2_1224_T2_T_S502_N704_RP|C     0.00%    passed     99.31%
+ 334  H3N2_1224_T2_T_S502_N704_RP|M1    0.00%    passed     99.82%
+ 335  H3N2_1688_T2_N_S508_N708_R|C      0.00%    passed     99.95%
+ 336  H3N2_1688_T2_N_S508_N708_R|M1     0.00%    passed    100.00%
+ 337  H3N2_1842_T3_N_S504_N708_R|C      0.00%    passed    100.00%
+ 338  H3N2_1842_T3_N_S504_N708_R|M1     0.00%    passed     99.97%
+ 339  H3N2_1707_T0_N_S517_N708_R|C      0.00%    passed     99.91%
+ 340  H3N2_1707_T0_N_S517_N708_R|M1     0.00%    passed     99.88%
+ 341  H3N2_1225_T3_N_S502_N709_RP|C     0.00%    passed     99.96%
+ 342  H3N2_1225_T3_N_S502_N709_RP|M1    0.00%    passed     99.96%
+ 343  H3N2_1672_T0_T_S506_N710_R|C      0.00%    passed     99.97%
+ 344  H3N2_1672_T0_T_S506_N710_R|M1     0.00%    passed     99.93%
+ 345  H3N2_1691_T3_N_S508_N711_RP|C     0.00%    passed     99.77%
+ 346  H3N2_1691_T3_N_S508_N711_RP|M1    0.00%    passed     99.81%
+ 347  H3N2_1682_T1_N_S507_N705_R|C      0.00%    passed     99.99%
+ 348  H3N2_1682_T1_N_S507_N705_R|M1     0.00%    passed     99.99%
+ 349  H3N2_3610_T1_N_S503_N704_R|C      0.00%    passed     99.65%
+ 350  H3N2_3610_T1_N_S503_N704_R|M1     0.00%    passed     99.86%
+ 351  H3N2_1227_T1_T_S503_N705_R|C      0.00%    passed     99.96%
+ 352  H3N2_1227_T1_T_S503_N705_R|M1     0.00%    passed     99.59%
+ 353  H3N2_1668_T1_T_S505_N710_R|C      0.00%    passed     99.69%
+ 354  H3N2_1668_T1_T_S505_N710_R|M1     0.00%    passed     99.79%
+****  TOTAL                             0.04%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: H3N2_1668_T0_N_S505_N709_R|C is identical to H3N2_1668_T2_T_S505_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1413_T1_T_S504_N705_R|C is identical to H3N2_1413_T7_T_S504_N710_RP|C but kept for subsequent analysis
+NOTE: H3N2_1221_T0_N_S517_N711_R|C is identical to H3N2_1221_T1_N_S517_N712_R|C but kept for subsequent analysis
+NOTE: H3N2_1878_T1_N_S517_N708_R|C is identical to H3N2_1878_T0_N_S517_N707_R|C but kept for subsequent analysis
+NOTE: H3N2_1867_T1_N_S507_N706_R|C is identical to H3N2_1867_T0_N_S507_N705_R|C but kept for subsequent analysis
+NOTE: H3N2_1847_T1_T_S505_N707_R|C is identical to H3N2_1847_T0_N_S505_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1701_T1_T_S517_N705_R|C is identical to H3N2_1701_T2_T_S517_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1231_T1_N_S503_N708_R|C is identical to H3N2_1231_T0_N_S503_N707_R|C but kept for subsequent analysis
+NOTE: H3N2_1686_T1_T_S508_N701_RP|C is identical to H3N2_1686_T3_T_S508_N702_RP|C but kept for subsequent analysis
+NOTE: H3N2_1848_T1_N_S505_N710_R|C is identical to H3N2_1848_T2_N_S505_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1414_T1_N_S504_N712_R|C is identical to H3N2_1414_T0_N_S504_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1874_T0_N_S508_N705_R|C is identical to H3N2_1874_T1_N_S508_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1842_T4_N_S504_N709_R|C is identical to H3N2_1842_T1_N_S504_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1672_T3_T_S506_N712_RP|C is identical to H3N2_1672_T2_T_S506_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1813_T1_T_S502_N703_R|C is identical to H3N2_1813_T0_T_S502_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_3612_T0_T_S503_N710_R|C is identical to H3N2_3612_T1_N_S503_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1814_T4_T_S502_N710_R|C is identical to H3N2_1814_T1_T_S502_N707_R|C but kept for subsequent analysis
+NOTE: H3N2_1682_T2_T_S507_N706_R|C is identical to H3N2_1682_T3_T_S507_N707_R|C but kept for subsequent analysis
+NOTE: H3N2_1843_T2_N_S504_N712_R|C is identical to H3N2_1843_T4_N_S505_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_1688_T0_N_S508_N706_R|C is identical to H3N2_1688_T3_N_S508_N709_R|C but kept for subsequent analysis
+NOTE: H3N2_1815_T1_N_S503_N701_R|C is identical to H3N2_1815_T0_N_S502_N712_R|C but kept for subsequent analysis
+NOTE: H3N2_1860_T1_N_S506_N705_R|C is identical to H3N2_1860_T0_N_S506_N704_R|C but kept for subsequent analysis
+NOTE: H3N2_1866_T0_N_S506_N711_R|C is identical to H3N2_1866_T3_N_S507_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_3609_T0_N_S502_N709_R|C is identical to H3N2_3609_T5_N_S503_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_1224_T3_T_S502_N705_RP|C is identical to H3N2_1224_T0_N_S502_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_1226_T1_N_S503_N702_R|C is identical to H3N2_1226_T3_N_S503_N703_RP|C but kept for subsequent analysis
+NOTE: H3N2_1825_T1_T_S503_N705_R|C is identical to H3N2_1825_T2_T_S503_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1876_T3_N_S517_N705_R|C is identical to H3N2_1876_T0_N_S517_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_1840_T1_T_S503_N712_R|C is identical to H3N2_1840_T0_T_S503_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_1205_T5_T_S517_N706_R|C is identical to H3N2_1205_T4_T_S517_N705_R|C but kept for subsequent analysis
+NOTE: H3N2_3613_T3_T_S504_N706_R|C is identical to H3N2_3613_T0_T_S504_N703_R|C but kept for subsequent analysis
+NOTE: H3N2_1412_T1_N_S504_N701_R|C is identical to H3N2_1412_T2_N_S504_N702_R|C but kept for subsequent analysis
+NOTE: H3N2_1828_T1_N_S503_N709_R|C is identical to H3N2_1828_T0_N_S503_N708_R|C but kept for subsequent analysis
+NOTE: H3N2_1219_T0_N_S517_N707_R|C is identical to H3N2_1219_T2_N_S517_N709_R|C but kept for subsequent analysis
+NOTE: H3N2_3610_T1_N_S503_N704_R|C is identical to H3N2_3610_T0_N_S503_N703_R|C but kept for subsequent analysis
+NOTE: H3N2_1866_T7_T_S507_N703_R|C is identical to H3N2_1866_T1_N_S506_N712_R|C but kept for subsequent analysis
+NOTE: H3N2_3611_T1_N_S503_N707_R|C is identical to H3N2_3611_T3_N_S503_N708_R|C but kept for subsequent analysis
+NOTE: H3N2_3615_T7_N_S504_N710_R|C is identical to H3N2_3615_T0_T_S504_N707_R|C but kept for subsequent analysis
+NOTE: H3N2_1691_T1_T_S517_N701_R|C is identical to H3N2_1691_T4_N_S508_N712_RP|C but kept for subsequent analysis
+NOTE: H3N2_1225_T1_N_S502_N707_R|C is identical to H3N2_1225_T0_N_S502_N706_R|C but kept for subsequent analysis
+NOTE: H3N2_1227_T0_N_S503_N704_R|C is identical to H3N2_1227_T2_T_S503_N706_RP|C but kept for subsequent analysis
+NOTE: H3N2_1868_T0_N_S507_N709_R|C is identical to H3N2_1868_T2_N_S507_N711_R|C but kept for subsequent analysis
+NOTE: H3N2_3608_T1_N_S502_N707_R|C is identical to H3N2_3608_T0_N_S502_N706_R|C but kept for subsequent analysis
+NOTE: 45 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: H3N2_1668_T1_T_S505_N710_R|C (identical to H3N2_1668_T2_T_S505_N711_R|C) is ignored but added at the end
+NOTE: H3N2_1413_T4_N_S504_N708_R|C (identical to H3N2_1413_T7_T_S504_N710_RP|C) is ignored but added at the end
+NOTE: H3N2_1413_T3_T_S504_N707_R|C (identical to H3N2_1413_T7_T_S504_N710_RP|C) is ignored but added at the end
+NOTE: H3N2_1413_T0_N_S504_N704_R|C (identical to H3N2_1413_T7_T_S504_N710_RP|C) is ignored but added at the end
+NOTE: H3N2_1867_T2_N_S507_N707_R|C (identical to H3N2_1867_T0_N_S507_N705_R|C) is ignored but added at the end
+NOTE: H3N2_1701_T3_T_S517_N707_R|C (identical to H3N2_1701_T2_T_S517_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1701_T0_T_S517_N704_R|C (identical to H3N2_1701_T2_T_S517_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1231_T2_T_S503_N709_R|C (identical to H3N2_1231_T0_N_S503_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1848_T0_N_S505_N709_R|C (identical to H3N2_1848_T2_N_S505_N711_R|C) is ignored but added at the end
+NOTE: H3N2_1874_T2_N_S508_N707_R|C (identical to H3N2_1874_T1_N_S508_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1842_T5_N_S504_N710_R|C (identical to H3N2_1842_T1_N_S504_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1842_T2_T_S504_N707_R|C (identical to H3N2_1842_T1_N_S504_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1842_T3_N_S504_N708_R|C (identical to H3N2_1842_T1_N_S504_N706_R|C) is ignored but added at the end
+NOTE: H3N2_1672_T0_T_S506_N710_R|C (identical to H3N2_1672_T2_T_S506_N711_R|C) is ignored but added at the end
+NOTE: H3N2_1813_T3_N_S502_N704_R|C (identical to H3N2_1813_T0_T_S502_N702_R|C) is ignored but added at the end
+NOTE: H3N2_3612_T2_N_S503_N712_R|C (identical to H3N2_3612_T1_N_S503_N711_R|C) is ignored but added at the end
+NOTE: H3N2_1814_T2_T_S502_N708_R|C (identical to H3N2_1814_T1_T_S502_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1814_T0_N_S502_N706_R|C (identical to H3N2_1814_T1_T_S502_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1814_T3_T_S502_N709_R|C (identical to H3N2_1814_T1_T_S502_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1814_T5_T_S502_N711_R|C (identical to H3N2_1814_T1_T_S502_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1682_T4_N_S507_N708_R|C (identical to H3N2_1682_T3_T_S507_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1682_T0_N_S507_N704_R|C (identical to H3N2_1682_T3_T_S507_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1682_T5_T_S507_N709_R|C (identical to H3N2_1682_T3_T_S507_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1682_T1_N_S507_N705_R|C (identical to H3N2_1682_T3_T_S507_N707_R|C) is ignored but added at the end
+NOTE: H3N2_1843_T0_N_S504_N711_R|C (identical to H3N2_1843_T4_N_S505_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1843_T5_N_S505_N703_R|C (identical to H3N2_1843_T4_N_S505_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1688_T2_N_S508_N708_R|C (identical to H3N2_1688_T3_N_S508_N709_R|C) is ignored but added at the end
+NOTE: H3N2_1815_T3_N_S503_N703_R|C (identical to H3N2_1815_T0_N_S502_N712_R|C) is ignored but added at the end
+NOTE: H3N2_1860_T3_N_S506_N706_R|C (identical to H3N2_1860_T0_N_S506_N704_R|C) is ignored but added at the end
+NOTE: H3N2_1866_T2_N_S507_N701_R|C (identical to H3N2_1866_T3_N_S507_N702_R|C) is ignored but added at the end
+NOTE: H3N2_3609_T1_N_S502_N710_R|C (identical to H3N2_3609_T5_N_S503_N702_R|C) is ignored but added at the end
+NOTE: H3N2_3609_T3_N_S502_N712_R|C (identical to H3N2_3609_T5_N_S503_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1224_T1_T_S502_N703_R|C (identical to H3N2_1224_T0_N_S502_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1224_T2_T_S502_N704_RP|C (identical to H3N2_1224_T0_N_S502_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1226_T0_N_S503_N701_R|C (identical to H3N2_1226_T3_N_S503_N703_RP|C) is ignored but added at the end
+NOTE: H3N2_1876_T1_N_S517_N703_R|C (identical to H3N2_1876_T0_N_S517_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1205_T0_T_S517_N701_R|C (identical to H3N2_1205_T4_T_S517_N705_R|C) is ignored but added at the end
+NOTE: H3N2_1205_T3_T_S517_N704_R|C (identical to H3N2_1205_T4_T_S517_N705_R|C) is ignored but added at the end
+NOTE: H3N2_1205_T1_N_S517_N702_R|C (identical to H3N2_1205_T4_T_S517_N705_R|C) is ignored but added at the end
+NOTE: H3N2_3613_T1_T_S504_N704_R|C (identical to H3N2_3613_T0_T_S504_N703_R|C) is ignored but added at the end
+NOTE: H3N2_3613_T2_T_S504_N705_R|C (identical to H3N2_3613_T0_T_S504_N703_R|C) is ignored but added at the end
+NOTE: H3N2_1412_T0_N_S503_N712_R|C (identical to H3N2_1412_T2_N_S504_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1412_T3_T_S504_N703_R|C (identical to H3N2_1412_T2_N_S504_N702_R|C) is ignored but added at the end
+NOTE: H3N2_1691_T3_N_S508_N711_RP|C (identical to H3N2_1691_T4_N_S508_N712_RP|C) is ignored but added at the end
+NOTE: H3N2_1227_T1_T_S503_N705_R|C (identical to H3N2_1227_T2_T_S503_N706_RP|C) is ignored but added at the end
+Alignment was printed to ./reference/concatenated_wgs.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ./reference/concatenated_wgs.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.244 seconds
+
+NOTE: 52 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 6 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 6.072 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -99012
+Threads: 2 / Time: 4.129 sec / Speedup: 1.471 / Efficiency: 74% / LogL: -99012
+Threads: 3 / Time: 6.363 sec / Speedup: 0.954 / Efficiency: 32% / LogL: -99012
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.252 / LogL: -40893.174
+Init pinv, alpha: 0.095, 1.000 / Estimate: 0.233, 0.420 / LogL: -40859.399
+Init pinv, alpha: 0.189, 1.000 / Estimate: 0.398, 0.663 / LogL: -40836.316
+Init pinv, alpha: 0.284, 1.000 / Estimate: 0.497, 0.952 / LogL: -40825.117
+Init pinv, alpha: 0.378, 1.000 / Estimate: 0.520, 1.047 / LogL: -40823.556
+Init pinv, alpha: 0.473, 1.000 / Estimate: 0.520, 1.048 / LogL: -40823.902
+Init pinv, alpha: 0.567, 1.000 / Estimate: 0.567, 1.315 / LogL: -40822.114
+Init pinv, alpha: 0.662, 1.000 / Estimate: 0.610, 1.675 / LogL: -40823.825
+Init pinv, alpha: 0.756, 1.000 / Estimate: 0.613, 1.703 / LogL: -40825.224
+Init pinv, alpha: 0.851, 1.000 / Estimate: 0.617, 1.740 / LogL: -40828.210
+Optimal pinv,alpha: 0.567, 1.315 / LogL: -40822.114
+
+Parameters optimization took 226.080 sec
+Computing ML distances based on estimated model parameters... 4.257 sec
+Computing BIONJ tree...
+0.139 seconds
+Log-likelihood of BIONJ tree: -40916.379
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.969 second
+Computing log-likelihood of 98 initial trees ... 8.605 seconds
+Current best score: -40797.101
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -40782.001
+Iteration 10 / LogL: -40792.436 / Time: 0h:4m:45s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -40781.102
+Iteration 20 / LogL: -40810.190 / Time: 0h:4m:56s
+Finish initializing candidate tree set (20)
+Current best tree score: -40781.102 / CPU time: 50.706
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -40800.871 / Time: 0h:5m:21s (0h:16m:4s left)
+Iteration 40 / LogL: -40863.270 / Time: 0h:5m:56s (0h:11m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -40779.342
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -40775.197
+Iteration 50 / LogL: -40787.976 / Time: 0h:6m:21s (0h:12m:11s left)
+Iteration 60 / LogL: -40775.370 / Time: 0h:6m:48s (0h:9m:41s left)
+Iteration 70 / LogL: -40776.283 / Time: 0h:7m:13s (0h:7m:44s left)
+Iteration 80 / LogL: -40820.430 / Time: 0h:7m:36s (0h:6m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -40774.735
+Iteration 90 / LogL: -40775.966 / Time: 0h:8m:1s (0h:8m:12s left)
+Iteration 100 / LogL: -40775.648 / Time: 0h:8m:26s (0h:6m:53s left)
+Iteration 110 / LogL: -40782.256 / Time: 0h:8m:48s (0h:5m:44s left)
+Iteration 120 / LogL: -40788.589 / Time: 0h:9m:14s (0h:4m:44s left)
+Iteration 130 / LogL: -40776.249 / Time: 0h:9m:37s (0h:3m:48s left)
+Iteration 140 / LogL: -40818.951 / Time: 0h:10m:0s (0h:2m:57s left)
+Iteration 150 / LogL: -40778.167 / Time: 0h:10m:33s (0h:2m:11s left)
+Iteration 160 / LogL: -40775.502 / Time: 0h:11m:1s (0h:1m:27s left)
+Iteration 170 / LogL: -40783.183 / Time: 0h:11m:28s (0h:0m:44s left)
+Iteration 180 / LogL: -40795.054 / Time: 0h:12m:0s (0h:0m:4s left)
+TREE SEARCH COMPLETED AFTER 182 ITERATIONS / Time: 0h:12m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -40774.735
+Optimal log-likelihood: -40774.729
+Rate parameters:  A-C: 1.52824  A-G: 6.79990  A-T: 0.49780  C-G: 0.19706  C-T: 7.77609  G-T: 1.00000
+Base frequencies:  A: 0.335  C: 0.192  G: 0.240  T: 0.233
+Proportion of invariable sites: 0.569
+Gamma shape alpha: 1.338
+Parameters optimization took 1 rounds (0.724 sec)
+BEST SCORE FOUND : -40774.729
+Total tree length: 0.213
+
+Total number of iterations: 182
+CPU time used for tree search: 774.228 sec (0h:12m:54s)
+Wall-clock time used for tree search: 480.236 sec (0h:8m:0s)
+Total CPU time used: 1200.562 sec (0h:20m:0s)
+Total wall-clock time used: 727.078 sec (0h:12m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./reference/concatenated_wgs.fasta.iqtree
+  Maximum-likelihood tree:       ./reference/concatenated_wgs.fasta.treefile
+  Likelihood distances:          ./reference/concatenated_wgs.fasta.mldist
+  Screen log file:               ./reference/concatenated_wgs.fasta.log
+
+Date and Time: Wed Aug 12 13:13:09 2020

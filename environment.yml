@@ -1,0 +1,23 @@
+name: h3vh1
+channels:
+  - conda-forge
+  - bioconda
+  - etetoolkit
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.7
+  - jupyter
+  - trimmomatic=0.39
+  - fastqc=0.11.9
+  - bowtie2=2.4.2
+  - flash=1.2.11
+  - mafft
+  - iqtree=2.0.3
+  - biopython
+  - ete3
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm

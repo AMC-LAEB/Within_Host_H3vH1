@@ -1,0 +1,209 @@
+IQ-TREE multicore version 2.0.6 for Mac OS X 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Alvins-MBP.home (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -nt AUTO -ntmax 4 -m GTR+I+G4 -s ./reference/mafft_concatenated_wgs.fasta
+Seed:    156112 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 20 18:28:05 2020
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file ./reference/mafft_concatenated_wgs.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 85 sequences with 13539 columns, 458 distinct patterns
+304 parsimony-informative, 693 singleton sites, 12542 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  H1N1pdm09_Cali09    0.00%    passed     90.79%
+   2  3-7|C               3.00%    passed    100.00%
+   3  3-7|M1              3.00%    passed    100.00%
+   4  3-24|C              3.00%    passed    100.00%
+   5  3-24|M1             3.00%    passed     99.73%
+   6  6-28|C              3.00%    passed    100.00%
+   7  6-28|M1             3.00%    passed    100.00%
+   8  6-24|C              3.00%    passed     99.97%
+   9  6-24|M1             3.00%    passed     99.60%
+  10  3-13|C              3.00%    passed     99.97%
+  11  3-13|M1             3.00%    passed     99.76%
+  12  3-20|C              3.00%    passed     99.93%
+  13  3-20|M1             3.00%    passed     99.89%
+  14  4-11|C              3.00%    passed    100.00%
+  15  4-11|M1             3.00%    passed     99.56%
+  16  3-25|C              3.00%    passed    100.00%
+  17  3-25|M1             3.00%    passed    100.00%
+  18  3-29|C              3.00%    passed     99.99%
+  19  3-29|M1             3.00%    passed     99.99%
+  20  3-10|C              3.00%    passed     99.99%
+  21  3-10|M1             3.00%    passed     99.99%
+  22  6-22|C              3.00%    passed     99.95%
+  23  6-22|M1             3.00%    passed     99.94%
+  24  3-28|C              3.00%    passed     99.99%
+  25  3-28|M1             3.00%    passed     99.90%
+  26  6-18|C              3.00%    passed     99.97%
+  27  6-18|M1             3.00%    passed     99.77%
+  28  4-9|C               3.00%    passed    100.00%
+  29  4-9|M1              3.00%    passed     99.95%
+  30  2-20|C              3.00%    passed    100.00%
+  31  2-20|M1             3.00%    passed     99.99%
+  32  3-1|C               3.00%    passed     99.97%
+  33  3-1|M1              3.00%    passed     99.95%
+  34  2-32|C              3.00%    passed     99.99%
+  35  2-32|M1             3.00%    passed     99.88%
+  36  3-26|C              3.00%    passed    100.00%
+  37  3-26|M1             3.00%    passed     99.93%
+  38  2-21|C              3.00%    passed    100.00%
+  39  2-21|M1             3.00%    passed     99.99%
+  40  4-13|C              3.00%    passed     99.99%
+  41  4-13|M1             3.00%    passed     99.99%
+  42  3-22|C              3.00%    passed     99.99%
+  43  3-22|M1             3.00%    passed     99.99%
+  44  6-32|C              3.00%    passed    100.00%
+  45  6-32|M1             3.00%    passed     99.99%
+  46  2-18|C              3.00%    passed    100.00%
+  47  2-18|M1             3.00%    passed    100.00%
+  48  2-25|C              3.00%    passed     99.97%
+  49  2-25|M1             3.00%    passed     99.63%
+  50  4-1|C               3.00%    passed    100.00%
+  51  4-1|M1              3.00%    passed     99.97%
+  52  3-6|C               3.00%    passed    100.00%
+  53  3-6|M1              3.00%    passed    100.00%
+  54  4-7|C               3.00%    passed     99.99%
+  55  4-7|M1              3.00%    passed     99.97%
+  56  2-19|C              3.00%    passed    100.00%
+  57  2-19|M1             3.00%    passed     99.99%
+  58  3-30|C              3.00%    passed    100.00%
+  59  3-30|M1             3.00%    passed     99.99%
+  60  4-10|C              3.00%    passed    100.00%
+  61  4-10|M1             3.00%    passed     99.99%
+  62  3-15|C              3.00%    passed     99.96%
+  63  3-15|M1             3.00%    passed     99.98%
+  64  6-23|C              3.00%    passed     99.97%
+  65  6-23|M1             3.00%    passed     99.97%
+  66  6-17|C              3.00%    passed     99.95%
+  67  6-17|M1             3.00%    passed     99.92%
+  68  4-4|C               3.00%    passed     99.99%
+  69  4-4|M1              3.00%    passed     99.98%
+  70  2-31|C              3.00%    passed     99.98%
+  71  2-31|M1             3.00%    passed     99.83%
+  72  2-30|C              3.00%    passed     99.98%
+  73  2-30|M1             3.00%    passed     99.95%
+  74  6-20|C              3.00%    passed     99.97%
+  75  6-20|M1             3.00%    passed     99.34%
+  76  4-19|C              3.00%    passed     99.98%
+  77  4-19|M1             3.00%    passed     99.48%
+  78  2-26|C              3.00%    passed     99.99%
+  79  2-26|M1             3.00%    passed     99.99%
+  80  6-26|C              3.00%    passed    100.00%
+  81  6-26|M1             3.00%    passed    100.00%
+  82  2-24|C              3.00%    passed     99.97%
+  83  2-24|M1             3.00%    passed     99.92%
+  84  2-23|C              3.00%    passed     99.97%
+  85  2-23|M1             3.00%    passed     99.98%
+****  TOTAL               2.96%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 4-9|C is identical to 4-11|C but kept for subsequent analysis
+NOTE: 3-26|C is identical to 3-25|C but kept for subsequent analysis
+NOTE: 3-28|C is identical to 3-29|C but kept for subsequent analysis
+NOTE: 6-23|C is identical to 6-18|C but kept for subsequent analysis
+NOTE: 2-18|C is identical to 2-20|C but kept for subsequent analysis
+NOTE: 2-24|C is identical to 2-25|C but kept for subsequent analysis
+NOTE: 2-30|C is identical to 2-31|C but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 4-10|C (identical to 4-11|C) is ignored but added at the end
+NOTE: 6-20|C (identical to 6-18|C) is ignored but added at the end
+NOTE: 2-19|C (identical to 2-20|C) is ignored but added at the end
+NOTE: 2-23|C (identical to 2-25|C) is ignored but added at the end
+Alignment was printed to ./reference/mafft_concatenated_wgs.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ./reference/mafft_concatenated_wgs.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+128 trees examined
+Threads: 1 / Time: 4.011 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -33495
+Threads: 2 / Time: 2.430 sec / Speedup: 1.650 / Efficiency: 83% / LogL: -33495
+Threads: 3 / Time: 2.033 sec / Speedup: 1.973 / Efficiency: 66% / LogL: -33495
+Threads: 4 / Time: 2.292 sec / Speedup: 1.750 / Efficiency: 44% / LogL: -33495
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.462 / LogL: -27559.802
+Init pinv, alpha: 0.103, 1.000 / Estimate: 0.103, 0.578 / LogL: -27558.656
+Init pinv, alpha: 0.206, 1.000 / Estimate: 0.206, 0.746 / LogL: -27557.595
+Init pinv, alpha: 0.309, 1.000 / Estimate: 0.309, 1.006 / LogL: -27556.725
+Init pinv, alpha: 0.412, 1.000 / Estimate: 0.412, 1.455 / LogL: -27556.294
+Init pinv, alpha: 0.515, 1.000 / Estimate: 0.514, 2.359 / LogL: -27556.941
+Init pinv, alpha: 0.618, 1.000 / Estimate: 0.615, 4.616 / LogL: -27560.429
+Init pinv, alpha: 0.721, 1.000 / Estimate: 0.634, 5.415 / LogL: -27561.927
+Init pinv, alpha: 0.823, 1.000 / Estimate: 0.637, 5.552 / LogL: -27562.679
+Init pinv, alpha: 0.926, 1.000 / Estimate: 0.643, 5.884 / LogL: -27565.294
+Optimal pinv,alpha: 0.412, 1.455 / LogL: -27556.294
+
+Parameters optimization took 3.450 sec
+Computing ML distances based on estimated model parameters... 0.096 sec
+Computing BIONJ tree...
+0.004 seconds
+Log-likelihood of BIONJ tree: -27547.551
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.910 second
+Computing log-likelihood of 98 initial trees ... 0.403 seconds
+Current best score: -27544.108
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -27544.099
+BETTER TREE FOUND at iteration 6: -27544.097
+BETTER TREE FOUND at iteration 8: -27544.097
+Iteration 10 / LogL: -27544.112 / Time: 0h:0m:15s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -27544.077
+Iteration 20 / LogL: -27544.107 / Time: 0h:0m:16s
+Finish initializing candidate tree set (20)
+Current best tree score: -27544.077 / CPU time: 2.026
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -27544.330 / Time: 0h:0m:17s (0h:0m:49s left)
+Iteration 40 / LogL: -27544.337 / Time: 0h:0m:18s (0h:0m:34s left)
+Iteration 50 / LogL: -27544.295 / Time: 0h:0m:18s (0h:0m:24s left)
+Iteration 60 / LogL: -27544.310 / Time: 0h:0m:19s (0h:0m:18s left)
+Iteration 70 / LogL: -27544.377 / Time: 0h:0m:20s (0h:0m:13s left)
+Iteration 80 / LogL: -27547.819 / Time: 0h:0m:21s (0h:0m:9s left)
+Iteration 90 / LogL: -27547.588 / Time: 0h:0m:22s (0h:0m:6s left)
+Iteration 100 / LogL: -27544.274 / Time: 0h:0m:23s (0h:0m:3s left)
+Iteration 110 / LogL: -27544.404 / Time: 0h:0m:24s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 115 ITERATIONS / Time: 0h:0m:24s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -27544.077
+Optimal log-likelihood: -27544.076
+Rate parameters:  A-C: 2.10015  A-G: 8.05225  A-T: 0.93066  C-G: 0.40398  C-T: 9.49488  G-T: 1.00000
+Base frequencies:  A: 0.334  C: 0.193  G: 0.243  T: 0.230
+Proportion of invariable sites: 0.412
+Gamma shape alpha: 1.484
+Parameters optimization took 1 rounds (0.018 sec)
+BEST SCORE FOUND : -27544.076
+Total tree length: 0.085
+
+Total number of iterations: 115
+CPU time used for tree search: 27.907 sec (0h:0m:27s)
+Wall-clock time used for tree search: 10.207 sec (0h:0m:10s)
+Total CPU time used: 61.145 sec (0h:1m:1s)
+Total wall-clock time used: 24.528 sec (0h:0m:24s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./reference/mafft_concatenated_wgs.fasta.iqtree
+  Maximum-likelihood tree:       ./reference/mafft_concatenated_wgs.fasta.treefile
+  Likelihood distances:          ./reference/mafft_concatenated_wgs.fasta.mldist
+  Screen log file:               ./reference/mafft_concatenated_wgs.fasta.log
+
+Date and Time: Fri Nov 20 18:28:29 2020
