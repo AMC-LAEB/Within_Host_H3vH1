@@ -1,17 +1,17 @@
 # Custom scripts and files for Han et al. (2021)  
 
 ## Citation  
-The within-host evolutionary dynamics of seasonal and pandemic human influenza A viruses in young children
-Alvin X. Han, Zandra C. Felix Garza, Matthijs R. A. Welkers, Rene M. Vigeveno, Nhu Duong Tran, Thi Quynh Mai Le, Quang Thai Pham, Thi Ngoc Anh Tran, Manh Tuan Ha, Thanh Hung Nguyen, Quoc Thinh Le, Thanh Hai Le, Thi Bich Ngoc Hoang, Kulkanya Chokephaibulkit, Pilaipan Puthavathana, Van Vinh Chau Nguyen, My Ngoc Nghiem, Tinh Hien Tran, Heiman F. L. Wertheim, Peter Horby, Annette Fox, H. Rogier van Doorn, Dirk Eggink, Menno D. de Jong, Colin A. Russell
-bioRxiv 2021.03.20.436248; doi: https://doi.org/10.1101/2021.03.20.436248  
+Within-host evolutionary dynamics of seasonal and pandemic human influenza A viruses in young children  
+Alvin X. Han, Zandra C. Felix Garza, Matthijs R. A. Welkers, René M. Vigeveno, Tran Nhu Duong, Le Thi Quynh Mai, Pham Quang Thai, Dang Dinh Thoang, Tran Thi Ngoc Anh, Ha Manh Tuan, Nguyen Thanh Hung, Le Quoc Thinh, Le Thanh Hai, Hoang Thi Bich Ngoc, Kulkanya Chokephaibulkit, Pilaipan Puthavathana, Nguyen Van Vinh Chau, Nghiem My Ngoc, Nguyen Van Kinh, Dao Tuyet Trinh, Tran Tinh Hien, Heiman F. L. Wertheim, Peter Horby, Annette Fox, H. Rogier van Doorn, Dirk Eggink, Menno D. de Jong, Colin A. Russell  
+_bioRxiv_ 2021.03.20.436248; doi: https://doi.org/10.1101/2021.03.20.436248  
 
 For any questions/queries with regards to the scripts/notebooks, please email [Alvin Han](x.han@amsterdamumc.nl).  
 
 ## Sequencing data
-You can download the raw sequencing data from NCBI sequence read archive under BioProject Accession number PRJNAXXXXXX.  
+All raw sequence data have been deposited at NCBI sequence read archive under BioProject Accession number PRJNA722099.  
 
 ## Installation  
-You will need Python 3 and several dependencies to run the Jupyter notebooks/scripts and reproduce our analyses. We have only ran our scripts/notebooks on MacOS and Linux should work just as well. We recommend using ```conda``` to download and install all dependencies:
+You will need Python 3 and several dependencies to run the Jupyter notebooks/scripts and reproduce our analyses. We have only ran our scripts/notebooks on MacOS. Linux should work just as well. We recommend using ```conda``` to download and install all dependencies:  
 
 1. Clone this repository.  
 2. ```cd Within_Host_H3vH1```  
