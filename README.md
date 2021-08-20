@@ -1,9 +1,7 @@
 # Custom scripts and files for Han et al. (2021)  
 
 ## Citation  
-Within-host evolutionary dynamics of seasonal and pandemic human influenza A viruses in young children  
-Alvin X. Han, Zandra C. Felix Garza, Matthijs R. A. Welkers, René M. Vigeveno, Tran Nhu Duong, Le Thi Quynh Mai, Pham Quang Thai, Dang Dinh Thoang, Tran Thi Ngoc Anh, Ha Manh Tuan, Nguyen Thanh Hung, Le Quoc Thinh, Le Thanh Hai, Hoang Thi Bich Ngoc, Kulkanya Chokephaibulkit, Pilaipan Puthavathana, Nguyen Van Vinh Chau, Nghiem My Ngoc, Nguyen Van Kinh, Dao Tuyet Trinh, Tran Tinh Hien, Heiman F. L. Wertheim, Peter Horby, Annette Fox, H. Rogier van Doorn, Dirk Eggink, Menno D. de Jong, Colin A. Russell  
-_bioRxiv_ 2021.03.20.436248; doi: https://doi.org/10.1101/2021.03.20.436248  
+Han, A. X., Felix Garza, Z. C., Welkers, M. R., Vigeveno, R. M., Tran, N. D., Le, T. Q. M., Pham Quang, T., Dang, D. T., Tran, T. N. A., Ha, M. T., Nguyen, T. H., Le, Q. T., Le, T. H., Hoang, T. B. N., Chokephaibulkit, K., Puthavathana, P., Nguyen, V. V. C., Nghiem, M. N., Nguyen, V. K., … Russell, C. A. (2021). Within-host evolutionary dynamics of seasonal and pandemic human influenza A viruses in young children. _ELife_, 10. https://doi.org/10.7554/eLife.68917. 
 
 For any questions/queries with regards to the scripts/notebooks, please email [Alvin Han](x.han@amsterdamumc.nl).  
 
